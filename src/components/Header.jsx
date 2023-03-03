@@ -1,7 +1,59 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useState, useEffect } from "react";
 
 export default function Header(){
+    const [activeItem, setActiveItem] = useState("Home");
+
+    useEffect(() => {
+        function handleScroll() {
+          const homeSection = document.getElementById("Home");
+          const aboutSection = document.getElementById("About");
+          const skillsSection = document.getElementById("Skills");
+          const worksSection = document.getElementById("Works");
+          const contactSection = document.getElementById("Contact");
+    
+          if (
+            window.scrollY >= homeSection.offsetTop &&
+            window.scrollY < aboutSection.offsetTop
+          ) 
+          {
+            setActiveItem("Home");
+          } 
+          else if (
+            window.scrollY >= aboutSection.offsetTop &&
+            window.scrollY < skillsSection.offsetTop
+          ) 
+          {
+            setActiveItem("About");
+          }
+          else if (
+            window.scrollY >= skillsSection.offsetTop &&
+            window.scrollY < worksSection.offsetTop
+          ) 
+          {
+            setActiveItem("Skills");
+          }
+          else if (
+            window.scrollY >= worksSection.offsetTop &&
+            window.scrollY < contactSection.offsetTop
+          )   
+          {
+            setActiveItem("Works");
+          } 
+          else if (
+            window.scrollY >= contactSection.offsetTop
+          ) 
+          {
+            setActiveItem("Contact");
+          }
+        }
+    
+        window.addEventListener("scroll", handleScroll);
+    
+        return () => window.removeEventListener("scroll", handleScroll);
+      }, []);
+
     return (
         <React.Fragment>
             <div className="container-fluid header">
@@ -16,19 +68,19 @@ export default function Header(){
                         <div className="collapse navbar-collapse col-sm-8" id="navbarNav">
                             <ul className="navbar-nav col-sm-10 ms-auto --navbar-menu">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#Home">Home</a>
+                                    <a className={activeItem=="Home" ? "nav-link active" : "nav-link"} href="#Home" id="#Home">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#About">About</a>
+                                    <a className={activeItem=="About" ? "nav-link active" : "nav-link"} href="#About" id="#About">About</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#Skills">Skills</a>
+                                    <a className={activeItem=="Skills" ? "nav-link active" : "nav-link"} href="#Skills" id="#Skills">Skills</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#Works">Works</a>
+                                    <a className={activeItem=="Works" ? "nav-link active" : "nav-link"} href="#Works" id="#Works">Works</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#Footer">Contact</a>
+                                    <a className={activeItem=="Contact" ? "nav-link active" : "nav-link"} href="#Contact" id="#Contact">Contact</a>
                                 </li>
                             </ul>
                         </div>

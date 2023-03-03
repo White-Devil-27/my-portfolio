@@ -7,19 +7,19 @@
 
 /* COMPONENTS */
 .Home{
-  height: 100vh;
+  height: 90vh;
 }
 .About{
   height: 90vh;
 }
 .Skills{
-  height: 180vh;
+  height: 170vh;
 }
 .Works{
-  height: 100vh;
+  height: 110vh;
 }
 .Footer{
-  height: 100vh;
+  height: 120vh;
 }
 
 /* ICON */

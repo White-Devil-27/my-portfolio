@@ -28,6 +28,9 @@ export default function Footer(){
                 <br/>
                 <p className="mt-5 --footer-design">Designed and Developed by Suresh M</p>
             </div>
+            <br/>
+            <br/>
+            <br/>
         </React.Fragment>
     )
 }

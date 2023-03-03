@@ -21,14 +21,14 @@ import skillimg from '../Images/Skillimg.png';
 
 export default function Skills(){
     return(
-        <React.Fragment>
+        <div>
             <div className="col-sm-12 text-center" data-aos="fade-up" data-aos-duration="2000">
                 <h1 className="--skills-title">Skills</h1>
             </div>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-sm-7 --skills-align">
-                        <section className="container-fluid mt-5">
+                        <div className="container-fluid mt-5">
                             <div className="row">
                                 <div data-aos="fade-up" data-aos-duration="2100">
                                     <h5 className="col-sm-12 text-center" style={{color : "#e1ad01",opacity: "0.9"}}>Devops Tools</h5>
@@ -58,8 +58,8 @@ export default function Skills(){
                                     </div> 
                                 </div>
                             </div> 
-                        </section>
-                        <section className="container-fluid mt-5">
+                        </div>
+                        <div className="container-fluid mt-5">
                             <div className="row">
                                 <div data-aos="fade-up" data-aos-duration="2100">
                                     <h5 className="col-sm-12 text-center" style={{color : "#e1ad01",opacity: "0.9"}}>Front - End</h5>
@@ -89,8 +89,8 @@ export default function Skills(){
                                     </div> 
                                 </div>
                             </div> 
-                        </section>
-                        <section className="container-fluid mt-5">
+                        </div>
+                        <div className="container-fluid mt-5">
                             <div className="row">
                                 <div data-aos="fade-up" data-aos-duration="2100">
                                     <h5 className="col-sm-12 text-center" style={{color : "#e1ad01",opacity: "0.9"}}>Back - End</h5>
@@ -116,8 +116,8 @@ export default function Skills(){
                                     </div> 
                                 </div>
                             </div> 
-                        </section>
-                        <section className="container-fluid mt-5">
+                        </div>
+                        <div className="container-fluid mt-5">
                             <div className="row">
                                 <div data-aos="fade-up" data-aos-duration="2100">
                                     <h5 className="col-sm-12 text-center" style={{color : "#e1ad01",opacity: "0.9"}}>Others</h5>
@@ -143,8 +143,8 @@ export default function Skills(){
                                     </div> 
                                 </div>
                             </div> 
-                        </section>
-                        <section className="container-fluid mt-5">
+                        </div>
+                        <div className="container-fluid mt-5">
                             <div className="row">
                                 <div data-aos="fade-up" data-aos-duration="2100">
                                     <h5 className="col-sm-12 text-center" style={{color : "#e1ad01",opacity: "0.9"}}>Interest</h5>
@@ -162,14 +162,13 @@ export default function Skills(){
                                     </div> 
                                 </div>
                             </div> 
-                        </section>
+                        </div>
                     </div>  
                     <div className="col-sm-5 --skills-img" data-aos="fade-left" data-aos-duration="2200">
                         <img src={skillimg} alt="" />
                     </div> 
                 </div>
             </div>
-            
-        </React.Fragment>
+        </div>
     )
 }

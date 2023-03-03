@@ -9,7 +9,9 @@ export default function Works(){
             <div className="container-fluid text-center" data-aos="fade-up" data-aos-duration="2000">
                 <h1 className="--skills-title">My Works</h1>
             </div>
-            <section className="container-fluid mt-5">
+            <br/>
+            <br/>
+            <div className="container-fluid mt-5">
                 <div className="row">
                     <div className="col-sm-6 --works-img"  data-aos="fade-up" data-aos-duration="2100">
                         <img src={portfolio} alt=""></img>
@@ -26,7 +28,7 @@ export default function Works(){
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </React.Fragment>
     )
 }

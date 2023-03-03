@@ -61,7 +61,7 @@ function App() {
               aria-describedby="modal-modal-description"
             >
               <Box sx={style}>
-                <Button sx={style1} onClick={handleClose}><i class='bx bx-window-close bx-tada bx-flip-horizontal' ></i></Button>
+                <Button sx={style1} onClick={handleClose}><i className='bx bx-window-close bx-tada bx-flip-horizontal' ></i></Button>
                 <div style={style2} id="modal-modal-title" variant="h6" component="h2">
                   Only available for Web
                 </div>
@@ -79,21 +79,21 @@ function App() {
                 <Home></Home>
               </div>
 
-              <div className='About' id='About'>
+              <section className='About' id='About'>
                 <About></About>
-              </div>
+              </section>
 
-              <div className='Skills' id='Skills'>
+              <section className='Skills' id='Skills'>
                 <Skills></Skills>
-              </div>
+              </section>
 
-              <div className='Works' id='Works'>
+              <section className='Works' id='Works'>
                 <Works></Works>
-              </div>
+              </section>
 
-              <div className='Footer' id='Footer'>
+              <section className='Contact' id='Contact'>
                 <Footer></Footer>              
-              </div>
+              </section>
           </main>
         </div>
         }
