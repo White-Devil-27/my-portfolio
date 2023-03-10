@@ -36,23 +36,23 @@ export default function Skills(){
                                 <div className="mt-5 col-sm-12">
                                     <div className="row" data-aos="fade-up" data-aos-duration="2200">
                                         <div className="col-sm-2 text-center --skills-dev" >
-                                            <img src={nginx} width="50px"></img><br/>
+                                            <img src={nginx} width="50px" alt=""></img><br/>
                                             <span>Nginx</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={docker} width="62px"></img><br/>
+                                            <img src={docker} width="62px" alt=""></img><br/>
                                             <span>Docker</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={kuber} width="57px"></img><br/>
+                                            <img src={kuber} width="57px" alt=""></img><br/>
                                             <span>Kubernetes</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={promo} width="57px"></img><br/>
+                                            <img src={promo} width="57px" alt=""></img><br/>
                                             <span>Prometheus</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={grafana} width="57px"></img><br/>
+                                            <img src={grafana} width="57px" alt=""></img><br/>
                                             <span>Grafana</span>
                                         </div>
                                     </div> 
@@ -67,23 +67,23 @@ export default function Skills(){
                                 <div className="mt-5 col-sm-12">
                                     <div className="row" data-aos="fade-up" data-aos-duration="2200">
                                         <div className="col-sm-2 text-center --skills-dev" >
-                                            <img src={html} width="50px"></img><br/>
+                                            <img src={html} width="50px" alt=""></img><br/>
                                             <span>HTML</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={css} width="55px"></img><br/>
+                                            <img src={css} width="55px" alt=""></img><br/>
                                             <span>CSS</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={javast} width="47px"></img><br/>
+                                            <img src={javast} width="47px" alt=""></img><br/>
                                             <span>Javascript</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={boot} width="57px"></img><br/>
+                                            <img src={boot} width="57px" alt=""></img><br/>
                                             <span>Bootstrap</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={react} width="59px"></img><br/>
+                                            <img src={react} width="59px" alt=""></img><br/>
                                             <span>React</span>
                                         </div>
                                     </div> 
@@ -98,19 +98,19 @@ export default function Skills(){
                                 <div className="mt-5 col-sm-12">
                                     <div className="row" data-aos="fade-up" data-aos-duration="2200">
                                         <div className="col-sm-2 text-center --skills-dev" >
-                                            <img src={python} width="50px"></img><br/>
+                                            <img src={python} width="50px" alt=""></img><br/>
                                             <span>Python/Flask</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={mysql} width="55px"></img><br/>
+                                            <img src={mysql} width="55px" alt=""></img><br/>
                                             <span>Mysql</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={redis} width="100px"></img><br/>
+                                            <img src={redis} width="100px" alt=""></img><br/>
                                             <span>Redis</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={click} width="59px"></img><br/>
+                                            <img src={click} width="59px" alt=""></img><br/>
                                             <span>Clickhouse</span>
                                         </div>
                                     </div> 
@@ -125,19 +125,19 @@ export default function Skills(){
                                 <div className="mt-5 col-sm-12">
                                     <div className="row" data-aos="fade-up" data-aos-duration="2200">
                                         <div className="col-sm-2 text-center --skills-dev" >
-                                            <img src={c} width="53px"></img><br/>
+                                            <img src={c} width="53px" alt=""></img><br/>
                                             <span>C Lang</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={figma} width="65px"></img><br/>
+                                            <img src={figma} width="65px" alt=""></img><br/>
                                             <span>Figma</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={edraw} width="65px"></img><br/>
+                                            <img src={edraw} width="65px" alt=""></img><br/>
                                             <span>EdrawMax</span>
                                         </div>
                                         <div className="col-sm-2 text-center --skills-dev">
-                                            <img src={pr} width="65px"></img><br/>
+                                            <img src={pr} width="65px" alt=""></img><br/>
                                             <span>Adobe Premiere</span>
                                         </div>
                                     </div> 

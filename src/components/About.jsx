@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import about from "../Images/img.jpg";
 
 export default function About(){
@@ -26,7 +26,7 @@ export default function About(){
                         </p>
                     </div>
                     <div className="col-sm-4 --about-img" data-aos="fade-up" data-aos-duration="2500">
-                        <img src={about} width="250px" height="250px"></img>
+                        <img src={about} width="250px" height="250px" alt=""></img>
                     </div>
                 </div>
             </div>

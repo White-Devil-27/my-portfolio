@@ -21,9 +21,9 @@ export default function Footer(){
                     <a href="mailto:msuresh20031999@gmail.com"><button className="--home-btn">Say Hello</button> </a>
                 </div>
                 <div className="mt-5 text-center" data-aos="fade-up" data-aos-duration="2600">
-                    <a href="https://www.linkedin.com/in/contactsuresh/" target="_blank"><i className="bx bxl-linkedin-square" style={{color: "#e1ad01"}}></i></a>
-                    <a href="https://github.com/White-Devil-27" target="_blank"><i className="bx bxl-github" style={{color: "#e1ad01"}}></i></a>
-                    <a href="mailto:msuresh20031999@gmail.com" target="_blank"><i className="bx bx-mail-send" style={{color: "#e1ad01"}}></i></a>
+                    <a href="https://www.linkedin.com/in/contactsuresh/" target="_blank" rel="noreferrer"><i className="bx bxl-linkedin-square" style={{color: "#e1ad01"}}></i></a>
+                    <a href="https://github.com/White-Devil-27" target="_blank" rel="noreferrer"><i className="bx bxl-github" style={{color: "#e1ad01"}}></i></a>
+                    <a href="mailto:msuresh20031999@gmail.com" target="_blank" rel="noreferrer"><i className="bx bx-mail-send" style={{color: "#e1ad01"}}></i></a>
                 </div>
                 <br/>
                 <p className="mt-5 --footer-design">Designed and Developed by Suresh M</p>

@@ -68,19 +68,19 @@ export default function Header(){
                         <div className="collapse navbar-collapse col-sm-8" id="navbarNav">
                             <ul className="navbar-nav col-sm-10 ms-auto --navbar-menu">
                                 <li className="nav-item">
-                                    <a className={activeItem=="Home" ? "nav-link active" : "nav-link"} href="#Home" id="#Home">Home</a>
+                                    <a className={activeItem === "Home" ? "nav-link active" : "nav-link"} href="#Home" id="#Home">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className={activeItem=="About" ? "nav-link active" : "nav-link"} href="#About" id="#About">About</a>
+                                    <a className={activeItem === "About" ? "nav-link active" : "nav-link"} href="#About" id="#About">About</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className={activeItem=="Skills" ? "nav-link active" : "nav-link"} href="#Skills" id="#Skills">Skills</a>
+                                    <a className={activeItem === "Skills" ? "nav-link active" : "nav-link"} href="#Skills" id="#Skills">Skills</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className={activeItem=="Works" ? "nav-link active" : "nav-link"} href="#Works" id="#Works">Works</a>
+                                    <a className={activeItem === "Works" ? "nav-link active" : "nav-link"} href="#Works" id="#Works">Works</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className={activeItem=="Contact" ? "nav-link active" : "nav-link"} href="#Contact" id="#Contact">Contact</a>
+                                    <a className={activeItem === "Contact" ? "nav-link active" : "nav-link"} href="#Contact" id="#Contact">Contact</a>
                                 </li>
                             </ul>
                         </div>
