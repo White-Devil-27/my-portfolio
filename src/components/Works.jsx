@@ -1,6 +1,6 @@
 import React from "react";
 import portfolio from '../Images/Portfolio.png';
-import tenzi from '../Images/Tenzi.png';
+// import tenzi from '../Images/Tenzi.png';
 
 
 export default function Works(){
