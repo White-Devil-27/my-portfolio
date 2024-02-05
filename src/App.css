@@ -187,7 +187,12 @@
 /* WORKS */
 
 .--works-img img{
-  width: 100%;
+  width: 50%;
+}
+.--works-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .--works-head{
   color: var(--secondary-color);
