@@ -13,7 +13,7 @@ export default function Works(){
             <br/>
             <div className="container-fluid mt-5">
                 <div className="row">
-                    <div className="col-sm-6 --works-img"  data-aos="fade-up" data-aos-duration="2100">
+                    <div className="col-sm-12 --works-img"  data-aos="fade-up" data-aos-duration="2100">
                         <img src={portfolio} alt=""></img>
                         <div className="text-center" style={{background: "#112240"}}>
                             <h4 className="--works-head">PORTFOLIO WEBSITE</h4>
